@@ -12,3 +12,8 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+
+/* Extending palette */
+.third-text-color{color: #f9a825}
+.third-color{background-color: #E1A438}

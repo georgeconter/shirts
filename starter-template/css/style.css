@@ -15,6 +15,23 @@
 .border-bottom{
 	border-bottom: solid 0.9px 5px #00838f;
 }
+.contact-square{
+	background-color: #e0f2f1;
+	border: 1px solid black;
+	border-radius: 8px;
+	margin-bottom: 2em; 
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+	transition:2s ease; 
+
+
+}
+.contact-square:hover{
+	background-color:#b2dfdb !important;
+	transition: 2s ease;
+	-webkit-transition: 2s ease;
+}
 
 /* shadows */
 .shadow-box{

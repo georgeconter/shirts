@@ -13,7 +13,22 @@
 	font-size: inherit;
 }
 
+.shadow-box{
+	box-shadow: box-shadow: 5px 5px 5px #888888 !important;
+}
 
 /* Extending palette */
 .third-text-color{color: #f9a825}
 .third-color{background-color: #E1A438}
+
+/*Image sizes*/
+.detail-image{
+	height: 32rem;
+	margin-top: 2em; 
+	width: : 32rem;
+}
+
+/*Text*/
+.justify{
+	text-align: justify;
+}

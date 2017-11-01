@@ -38,6 +38,32 @@
 	-webkit-transition: 2s ease;
 }
 
+.btn-product{
+	margin-top: 7em;
+	margin-left: 7.2em;
+	opacity: 0;
+  	position: absolute;
+  	transition: background-color 1s ease,opacity .35s ease;
+}
+
+.btn-product:hover{
+	background-color: #0277bd !important;
+	transition: background-color 1s ease;
+}
+
+.img-placeholder img{
+	position: relative;
+	opacity: 1;
+	transition: opacity .35s ease;
+}
+.img-placeholder:hover img{
+	opacity: 0.8 ;
+}
+.img-placeholder:hover .btn-product{
+	opacity: 1;
+	transition: opacity .35s ease, background-color 1s ease;
+}
+
 /* shadows */
 .shadow-box{
 	box-shadow:0px 1px 9px #888888;
